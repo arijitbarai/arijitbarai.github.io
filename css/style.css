@@ -1,0 +1,112 @@
+#box{
+    width: auto;
+    margin:  0 10px 0 10px;
+
+}
+#potphilio{
+    float: left;
+    margin: 10px;
+    background-color: rgba(204, 187, 89, 0.55);
+
+    background-blend-mode: soft-light;
+    /*max-width: 750px;*/
+    width: 50%;
+    border-radius: 20px;
+}
+#left_potpholo {
+    float: left;
+    background-color: rgba(204, 187, 89, 0.55);
+
+
+    /*max-width: 750px;*/
+    width: 48%;
+
+
+}
+/*.box{*/
+/*    background-color: rgba(255,0,21,0.44);*/
+/*    max-width: 100%;*/
+/*}*/
+body{
+    background-image: url("../images/cropped-1920-1080-786378.png");
+    width: auto;
+    hight: auto;
+    background-size: auto;
+    background-position: center center;
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+
+
+
+}
+.text1{
+    object-position: center;
+    min-margin:10%;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+
+
+}
+a{
+    text-decoration: none;
+    color: #0766a8;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+.images {
+    max-height: max-content;
+    width: max-content;
+    margin: auto;
+
+}
+p1{
+    color: rgba(254, 255, 0, 0.78);
+
+    font-size:130%;
+
+    text-decoration-style: solid;
+    margin: auto;
+    width: 95%;
+    font-family: 'Nabal',cursive
+}
+.makaut {
+    background-image: url("../images/back-login.jpg");
+    margin: auto;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    min-height: 350px;
+    height: auto;
+    opacity: 80%;
+    border-radius: 30px;
+
+}
+p2{
+    font-size:130%;
+    color: rgba(254, 255, 0, 0.78);
+
+    text-decoration-style: solid;
+    margin: auto;
+    width: 95%;
+    font-family: 'Nabal',cursive
+}
+.text2{
+    object-position: center;
+    min-margin:10%;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    & .fortnite{
+        color: blue;
+    }
+    & .velorant{
+        color: red;
+    }
+}
