@@ -1,112 +1,111 @@
-#box{
-    width: auto;
-    margin:  0 10px 0 10px;
+
+
+body {
+  background: #DDD;
+  font-family: 'Open Sans', arial, sans-serif;
+  background-image: url("/images/space-background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family:'Lobster', cursive;
+  weight: regular;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.75rem;
+  margin-bottom: 3.125rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
 
 }
-#potphilio{
-    float: left;
-    margin: 10px;
-    background-color: rgba(204, 187, 89, 0.55);
 
-    background-blend-mode: soft-light;
-    /*max-width: 750px;*/
-    width: 50%;
-    border-radius: 20px;
+.hero img{
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0;
 }
-#left_potpholo {
-    float: left;
-    background-color: rgba(204, 187, 89, 0.55);
 
-
-    /*max-width: 750px;*/
-    width: 48%;
-
-
+aside.right{
+  float:right ;
 }
-/*.box{*/
-/*    background-color: rgba(255,0,21,0.44);*/
-/*    max-width: 100%;*/
-/*}*/
-body{
-    background-image: url("../images/cropped-1920-1080-786378.png");
-    width: auto;
-    hight: auto;
-    background-size: auto;
-    background-position: center center;
-
-    background-attachment: fixed;
-
-    background-repeat: no-repeat;
-
-
-
-
+aside.left{
+  float:left ;
 }
-.text1{
-    object-position: center;
-    min-margin:10%;
-    margin: auto;
-    height: 50%;
-    width: 80%;
-
-
+iframe{
+  border-radius:0 0 1.875rem 1.875rem;
 }
-a{
-    text-decoration: none;
-    color: #0766a8;
-}
-h1{
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-}
-.images {
-    max-height: max-content;
-    width: max-content;
-    margin: auto;
 
+section.low_text{
+  margin: auto;
+  width: 12.5rem;
+  text-align: center;
 }
-p1{
-    color: rgba(254, 255, 0, 0.78);
-
-    font-size:130%;
-
-    text-decoration-style: solid;
-    margin: auto;
-    width: 95%;
-    font-family: 'Nabal',cursive
+section.intro{
+  background-color: #fff;
+  text-align: center;
 }
-.makaut {
-    background-image: url("../images/back-login.jpg");
-    margin: auto;
-    width: 75%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: auto;
-    min-height: 350px;
-    height: auto;
-    opacity: 80%;
-    border-radius: 30px;
-
+section.intro,section.contact{
+  padding: 2.5rem;
 }
-p2{
-    font-size:130%;
-    color: rgba(254, 255, 0, 0.78);
-
-    text-decoration-style: solid;
-    margin: auto;
-    width: 95%;
-    font-family: 'Nabal',cursive
+.hero{
+  line-height: 0;
 }
-.text2{
-    object-position: center;
-    min-margin:10%;
-    margin: auto;
-    height: 50%;
-    width: 80%;
-    & .fortnite{
-        color: blue;
-    }
-    & .velorant{
-        color: red;
-    }
+aside{
+  padding-right: 1.5rem;
+  line-height: 1.75rem;
+  /*size:15px;*/
+  /*font-family: "Open Sans";*/
+}
+section.contact{
+  height: 21.25rem;
+  background-color: #ddd;
+}
+section.map{
 }
